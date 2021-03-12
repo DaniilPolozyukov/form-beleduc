@@ -1,0 +1,124 @@
+body {
+  background: #E5E5E5;
+}
+@font-face {
+font-family: "MuseoCyrl";
+src: url("fonts/MuseoCyrl900.otf") format("woff2"),
+url("fonts/MuseoCyrl900.otf") format("woff");
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+
+.zayavka__hidden {
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto ;
+width: 95%;
+max-width: 408px;
+height: 441px;
+z-index: 999;
+background: rgb(255, 255, 255);
+/* display: flex; */
+flex-direction: column;
+background: #FFFFFF;
+box-shadow: 0px 0px 15px rgba(196, 196, 196, 0.3);
+border-radius: 10px;
+/* padding: 45px 54px 45px 54px; */
+}
+
+.zayavka__hidden__text__close {
+position: absolute;
+top: 15px;
+left: 380px;
+bottom: 0;
+right: 0;
+cursor: pointer;
+}
+
+.zayavka__hidden__svg {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 16px;
+}
+
+.zayavka__hidden__header {
+font-family: MuseoCyrl;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+color: #000000;
+text-align: center;
+padding-top: 24px;
+padding-bottom: 4px;
+}
+
+.zayavka__hidden__inp {
+margin-left: 54px;
+margin-right: 54px;
+margin-bottom: 10px;
+padding: 10px; 
+border: none;
+border-bottom: 2px solid #C4C4C4;
+}
+input:focus:not([type=submit]), textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #FFDD00;
+}
+.zayavka__hidden__text {
+color: #3B484A;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.05em;
+margin-bottom: 16px;
+margin-left: 54px;
+margin-right: 54px;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.zayavka__hidden__text__container {
+color: #3B484A;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.05em;
+margin-bottom: 16px;
+margin-left: 54px;
+margin-right: 54px;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.zayavka__hidden__text__bold {
+color: #3B484A;
+font-size: 12px;
+font-weight: 900;
+}
+.zayavka__hidden__btm {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+background: #FFDD00;
+color: #C78014;
+text-align: center;
+margin-left: 80px;
+margin-right: 80px;
+box-shadow: 0px 0px 15px #FFDD00;
+border-radius: 80px;
+height: 50px;
+cursor: pointer;
+font-weight: bold;
+font-family: MuseoCyrl;
+}
